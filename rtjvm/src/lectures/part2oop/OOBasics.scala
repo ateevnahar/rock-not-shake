@@ -7,8 +7,6 @@ object OOBasics extends App {
 
   // person.name == not valid to print in Scala as class parameters are not class fields
 
-
-
   //book stuff
 
   val author = new Writer("jk","rowling", 1970)
@@ -75,7 +73,7 @@ class Novel(title: String, author: Writer, publishYear: Int) {
 /*
   counter class
   - receives an int
-  - meethod for current count
+  - method for current count
   - increment decrement count => new counter
   - overload inc/dec to receive an amount
 
@@ -104,11 +102,3 @@ class Counter(x: Int) {
   }
 
 }
-
-
-
-
-
-
-
-
